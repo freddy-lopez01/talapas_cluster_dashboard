@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import nodeCoresData from "./node_data.json";
 import "./App.css";
 import NodeGrid from "./components/node.jsx";
