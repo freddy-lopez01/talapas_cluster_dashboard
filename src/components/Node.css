@@ -1,0 +1,43 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  padding-left:40vh;
+  padding: 45px;
+  gap: 3px;
+
+}
+
+.image-item {
+	display: column;
+    font-family: 'Poppins', sans-serif;
+	border-radius: 5px;
+	aspect-ratio: 1 / 1;
+	text-align: center;
+}
+
+.main-layout {
+	display: flex;
+}
+
+.sidebar {
+	width: 300px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-left: 2px solid #ccc;
+	box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+	animation: slideIn 0.3s ease-out;
+}
+
+
+@keyframes slideIn {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+

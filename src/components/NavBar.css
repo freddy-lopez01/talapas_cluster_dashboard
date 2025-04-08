@@ -1,0 +1,68 @@
+.Navbar-container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.2rem 5rem;
+}
+
+.logo {
+  margin-right: auto; /* Aligns the logo to the left */
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0.3em;
+}
+
+.nav-opt {
+  display: flex;
+  flex: 1; /* Allows nav-opt to grow and occupy space */
+  justify-content: center; /* Center the nav-menu within nav-opt */
+}
+
+.nav-item {
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.nav-menu {
+  list-style: none; /* Removes bullet points */
+  display: flex; /* Makes the items display in a row */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.hamburger-wrapper {
+  position: relative;
+}
+
+.hamburger {
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(1, 1, 1, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-item.active {
+  background-color: #007BFF;
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}

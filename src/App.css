@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/*.dashboard-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.dashboard-container h1{
+	font-family: 'Poppins', sans-serif;
+	padding: 20px;
+	padding-left: 2.5vw;
+}
+
+.grid-container {
+	background-color: rgba(211, 211, 211, 0.4);
+	display: flex;
+	transition: margin-right 0.3s ease;
+	align-items: flex-start;
+	position: relative;
+}
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+	gap: 10px;
+	flex: 1; /* Let grid expand */
+	transition: transform 0.3s ease;
+}
+
+.sidebar {
+	width: 20vh;
+	height: 800vh;
+	background-color: #f4f4f4;
+	padding: 20px;
+	box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	animation: slideIn 0.3s ease-out forwards;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
