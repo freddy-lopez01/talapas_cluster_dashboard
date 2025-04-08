@@ -1,0 +1,2698 @@
+{
+    "n0261": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0111": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0374": {
+        "features": "intel,broadwell,e7-4830,mem-4tb",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0160": {
+        "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+    },
+    "n0210": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0075": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0305": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0399": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0396": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0151": {
+        "features": "amd,milan,7413,a100,gpu-10gb",
+        "partitions": [
+            "gpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+    },
+    "n0221": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kuhl",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0044": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0334": {
+        "features": "amd,milan,7513",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0250": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0120": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0182": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0345": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0035": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0243": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0084": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0133": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0368": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "datascience",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0356": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0191": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0069": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0319": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0142": {
+        "features": "intel,icelake,6348,mem-4tb",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0385": {
+        "features": "intel,cascadelake,6248,v100,gpu-32gb",
+        "partitions": [
+            "cisds",
+            "preempt"
+        ],
+        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+    },
+    "n0232": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0057": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0327": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0058": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0328": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0173": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0203": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0066": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0316": {
+        "features": "amd,milan,7543,a100,gpu-40gb,no-mig",
+        "partitions": [
+            "kerngpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100-pcie-40gb:3"
+    },
+    "n0359": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "hendon",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0367": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "dsci100",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0330": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0040": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0225": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "melgar",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0155": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0392": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0341": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0186": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0124": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0254": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0093": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0370": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "datascience",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0115": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0265": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0189": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0301": {
+        "features": "amd,rome,7542,a100,gpu-40gb,gpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100-pcie-40gb:1,gpu:nvidia_a100_80gb_pcie:2"
+    },
+    "n0071": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0214": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0164": {
+        "features": "amd,milan,7413,a100,gpu-80gb,3xgpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:3"
+    },
+    "n0312": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0062": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0239": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0149": {
+        "features": "amd,milan,7413,a100,gpu-10gb",
+        "partitions": [
+            "gpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:28"
+    },
+    "n0207": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0177": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0248": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0363": {
+        "features": "amd,milan,7713,a100,gpu-80gb,no-mig",
+        "partitions": [
+            "lowd",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+    },
+    "n0106": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0109": {
+        "features": "intel,icelake,6338n",
+        "partitions": [
+            "cryoc",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0195": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0352": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0080": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0247": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0323": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0053": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0208": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0178": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0236": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0381": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "karlstrom",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0146": {
+        "features": "intel,icelake,6348,mem-2tb",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0204": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0174": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0311": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0061": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0105": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0199": {
+        "features": "intel,icelake,6342",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0360": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "hendon",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0134": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0244": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0083": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0351": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0196": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n1000": {
+        "features": "intel,sapphirerapids,8480cl,mem-2tb,h100,gpu-80gb",
+        "partitions": [
+            "kerngpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_h100_80gb_hbm3:8"
+    },
+    "n0235": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0145": {
+        "features": "intel,icelake,6348,mem-2tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0382": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "karlstrom",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0999": {
+        "features": "intel,sapphirerapids,6442y,mem-1tb,h100,gpu-80gb",
+        "partitions": [
+            "cisds",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_h100_80gb_hbm3:4"
+    },
+    "n0320": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0050": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0226": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "melgar",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0391": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0156": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0333": {
+        "features": "amd,milan,7513",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0043": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0218": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0168": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0127": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0090": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0257": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0119": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0269": {
+        "features": "intel,icelake,6342",
+        "partitions": [
+            "rohlfs",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0185": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0342": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0116": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0266": {
+        "features": "intel,icelake,6348,mem-1tb",
+        "partitions": [
+            "rohlfs",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0128": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0258": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0373": {
+        "features": "intel,broadwell,e7-4830,mem-1tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0217": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0167": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0302": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0072": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0229": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "phillips",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0159": {
+        "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+    },
+    "n0192": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0355": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0087": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0240": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0130": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0054": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0324": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0386": {
+        "features": "intel,cascadelake,6248,v100,gpu-32gb",
+        "partitions": [
+            "cisds",
+            "preempt"
+        ],
+        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+    },
+    "n0141": {
+        "features": "intel,icelake,6348,mem-4tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0231": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0065": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0315": {
+        "features": "amd,milan,7543,a100,gpu-20gb",
+        "partitions": [
+            "kerngpu",
+            "preempt"
+        ],
+        "gres": "gpu:3g.20gb:6"
+    },
+    "n0389": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0170": {
+        "features": "amd,milan,7413,a100,no-mig",
+        "partitions": [
+            "heidl"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+    },
+    "n0088": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0364": {
+        "features": "intel,cascadelake,8280l,mem-6tb",
+        "partitions": [
+            "datascience",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0377": {
+        "features": "intel,broadwell,e7-4830,mem-2tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0262": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0112": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0349": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0039": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0076": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0306": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0338": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0163": {
+        "features": "amd,milan,7413,a100,gpu-10gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+    },
+    "n0213": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0337": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0079": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0309": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0152": {
+        "features": "amd,milan,7413,a100,3xgpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:3"
+    },
+    "n0395": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0222": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kuhl",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0346": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0181": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0036": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0253": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0094": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0123": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0378": {
+        "features": "intel,broadwell,e7-4830,mem-2tb",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0237": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0147": {
+        "features": "intel,icelake,6348,mem-1tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0380": {
+        "features": "amd,milan,7413,mem-1tb",
+        "partitions": [
+            "dasa",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0322": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0052": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0209": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0179": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0136": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0246": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0081": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0353": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0194": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0107": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0249": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0362": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "hendon",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0206": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0176": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0313": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0063": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0238": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0148": {
+        "features": "intel,icelake,6348,mem-1tb",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0215": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0165": {
+        "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+    },
+    "n0070": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0114": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0264": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0188": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0371": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "datascience",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0125": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0092": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0255": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0187": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0340": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0224": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kuhl",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0393": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0154": {
+        "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+    },
+    "n0331": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0041": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0366": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "dsci100",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0358": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0067": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0317": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0059": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0329": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0172": {
+        "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+    },
+    "n0202": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0056": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0326": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0068": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0318": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0384": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "racs",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0143": {
+        "features": "intel,icelake,6348,mem-2tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0233": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0190": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "compute"
+        ],
+        "gres": "N/A"
+    },
+    "n0357": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0085": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0242": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0132": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0369": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "datascience",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0344": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0183": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0034": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0251": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0096": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0121": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0045": {
+        "features": "amd,genoa,9354p,a40,gpu-48gb",
+        "partitions": [
+            "ray",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a40:2"
+    },
+    "n0335": {
+        "features": "amd,milan,7513",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0150": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0397": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0220": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0074": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0304": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0398": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0161": {
+        "features": "amd,milan,7413,a100,gpu-10gb",
+        "partitions": [
+            "interactivegpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+    },
+    "n0211": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0375": {
+        "features": "intel,broadwell,e7-4830,mem-4tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0260": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0110": {
+        "features": "amd,genoa,9354p,l40,gpu-48gb",
+        "partitions": [
+            "murray",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_l40:2"
+    },
+    "n0095": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0252": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0122": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0379": {
+        "features": "intel,broadwell,e7-4830,mem-2tb",
+        "partitions": [
+            "memory",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0180": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0347": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0037": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0078": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0308": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0394": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0153": {
+        "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+    },
+    "n0223": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kuhl",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0046": {
+        "features": "amd,genoa,9354p,a40,gpu-48gb",
+        "partitions": [
+            "ray",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a40:2"
+    },
+    "n0336": {
+        "features": "intel,cascadelake,6248,v100,gpu-32gb",
+        "partitions": [
+            "kerngpu",
+            "preempt"
+        ],
+        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+    },
+    "n0049": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0339": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0162": {
+        "features": "amd,milan,7413,a100,gpu-10gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+    },
+    "n0212": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0077": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0307": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0263": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0113": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0348": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0038": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0376": {
+        "features": "intel,broadwell,e7-4830,mem-2tb",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0270": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0089": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0365": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "dsci100",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0171": {
+        "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+    },
+    "n0201": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0064": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0314": {
+        "features": "amd,milan,7543,a100,gpu-20gb",
+        "partitions": [
+            "kerngpu",
+            "preempt"
+        ],
+        "gres": "gpu:3g.20gb:6"
+    },
+    "n0388": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0387": {
+        "features": "intel,cascadelake,6248,v100,gpu-32gb",
+        "partitions": [
+            "cisds",
+            "preempt"
+        ],
+        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+    },
+    "n0230": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0055": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0325": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0241": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0086": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0131": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0354": {
+        "features": "intel,cascadelake,6230",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0193": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0303": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "cengiz",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0073": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0228": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "phillips",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0158": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0216": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0166": {
+        "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+    },
+    "n0129": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0259": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0372": {
+        "features": "intel,broadwell,e7-4830,mem-1t",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0117": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0267": {
+        "features": "intel,icelake,6348,mem-1tb",
+        "partitions": [
+            "rohlfs",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0118": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0268": {
+        "features": "intel,icelake,6342",
+        "partitions": [
+            "rohlfs",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0033": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0343": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0184": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0126": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "computelong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0256": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0091": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0332": {
+        "features": "amd,milan,7513",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0042": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "paty",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0219": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "gc3f",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0169": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0227": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "phillips",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0157": {
+        "features": "amd,milan,7413,a100,gpu-40gb",
+        "partitions": [
+            "gpu",
+            "gpulong",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+    },
+    "n0390": {
+        "features": "intel,cascadelake,6230,tmp-9tb",
+        "partitions": [
+            "amt",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0998": {
+        "features": "intel,sapphirerapids,6442y,mem-1tb,h100,gpu-80gb",
+        "partitions": [
+            "cisds",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_h100_80gb_hbm3:4"
+    },
+    "n0321": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0051": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0234": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0383": {
+        "features": "intel,cascadelake,6248",
+        "partitions": [
+            "ctn",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0144": {
+        "features": "intel,icelake,6348,mem-2tb",
+        "partitions": [
+            "memory",
+            "memorylong",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0197": {
+        "features": "intel,sapphirerapids,6448y,mem-1tb,l40s,gpu-48gb",
+        "partitions": [
+            "dgl",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_l40s:4"
+    },
+    "n0350": {
+        "features": "amd,milan,7413",
+        "partitions": [
+            "bgmp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0135": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "compute",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0082": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0245": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "dufek",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0361": {
+        "features": "intel,skylake,6148",
+        "partitions": [
+            "hendon",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0310": {
+        "features": "intel,broadwell,e5-2690v4",
+        "partitions": [
+            "interactive",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0060": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "compute_intel",
+            "computelong_intel",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0205": {
+        "features": "intel,broadwell,e5-2690",
+        "partitions": [
+            "jhp",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0175": {
+        "features": "amd,milan,7713",
+        "partitions": [
+            "kern",
+            "preempt"
+        ],
+        "gres": "N/A"
+    },
+    "n0997": {
+        "features": "intel,sapphirerapids,6442y,mem-1tb,h100,gpu-80gb",
+        "partitions": [
+            "chen",
+            "preempt"
+        ],
+        "gres": "gpu:nvidia_h100_80gb_hbm3:4"
+    }
+}
