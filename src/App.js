@@ -18,14 +18,24 @@ const ClusterDashboard = () => {
     		setSelectedNode(nodename);
   		}
 	};
-	const [colorMode, setColorMode] = useState("cores"); // NEW
+	const [colorMode, setColorMode] = useState("cores"); 
+	
+	const handleColorModeChange = (mode) => {
+    setColorMode(mode); // Set the selected color mode
+    };
 
     return (
         <div className="dashboard-container">
 			<NavBar/>
+		    <div className="color-mode-buttons">
+        		<button className="button-opt" onClick={() => handleColorModeChange("cores")}>Cores</button>
+        		<button className="button-opt" onClick={() => handleColorModeChange("partitions")}>Partitions</button>
+        		<button className="button-opt" onClick={() => handleColorModeChange("architecture")}>Architecture</button>
+        		<button className="button-opt" onClick={() => handleColorModeChange("gpu")}>GPU</button>
+      		</div>
             <div className="grid-container" style={{ marginRight: selectedNode ? "300px" : "0" }}>
 
-				<NodeGrid nodes={nodes} cores={cores} onNodeClick={handleNodeClick}/>
+				<NodeGrid nodes={nodes} cores={cores} colorMode={colorMode} onNodeClick={handleNodeClick}/>
 
 				{selectedNode && (
 					<Sidebar node={selectedNode} onClose={() => setSelectedNode(null)} />

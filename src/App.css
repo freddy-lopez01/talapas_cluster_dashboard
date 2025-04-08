@@ -51,7 +51,23 @@
 	padding-left: 2.5vw;
 }
 
+.color-mode-buttons {
+	padding-left: 2.5vw;
+
+
+}
+.button-opt {
+	font-family: 'Poppins', sans-serif;
+	padding: 10px;
+	margin-bottom: 1vh;
+	border-radius: 10px;
+	background-color: rgba(211, 211, 211, 0.1);
+
+}
+
 .grid-container {
+	font-family: 'Poppins', sans-serif;
+
 	background-color: rgba(211, 211, 211, 0.4);
 	display: flex;
 	transition: margin-right 0.3s ease;

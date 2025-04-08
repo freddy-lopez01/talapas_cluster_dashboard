@@ -1,4 +1,6 @@
 import nodeDetailsData from "../node_features.json";
+import partitionColors from "../partitionColors.json";
+
 
 export const getColor = (nodename, coreValue, colorMode, cores) => {
   const nodeInfo = nodeDetailsData[nodename];
@@ -14,9 +16,15 @@ export const getColor = (nodename, coreValue, colorMode, cores) => {
       return `rgba(0, ${intensity}, 0, 0.5)`;
 
     case "partitions":
-      return nodeInfo.partitions.includes("gpu")
-        ? "rgba(0, 0, 255, 0.3)"
-        : "rgba(255, 255, 0, 0.3)";
+	  console.log(nodeInfo.partitions)
+	  const nonPreemptPartition = nodeInfo.partitions.find(partition => partition !== "preempt");
+
+  // If a non-preempt partition is found, return its associated color
+      if (nonPreemptPartition) {
+        return partitionColors[nonPreemptPartition] || "rgba(150,150,150,0.6)"; // Default color if partition not found in the map
+      } else {
+        return "rgba(255, 255, 0, 0.3)"; // Return a fallback color if all partitions are "preempt"
+      }
 
     case "architecture":
       return nodeInfo.features.includes("amd")
