@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import nodeCoresData from "./node_data.json";
-import nodeFeaturesData from "./node_features.json";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import NodeGrid from "./components/node.jsx";
 import Sidebar from "./components/SideBar.jsx";
@@ -9,9 +7,27 @@ import ColorKey from "./components/ColorKey.jsx";
 
 const ClusterDashboard = () => {
 	const [selectedNode, setSelectedNode] = useState(null);
+	const [colorMode, setColorMode] = useState("cores"); 
+	const [keyMode, setKeyMode] = useState(false); 
+ 
+	const [nodeCoresData, SetNodeCoreData] = useState({});
 
-    const nodes = Object.keys(nodeCoresData);
-    const cores = Object.values(nodeCoresData);
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const coresRes = await fetch(`./node_data.json?nocache=${Date.now()}`);
+				const coresJson = await coresRes.json();
+			 	SetNodeCoreData(coresJson )
+			} catch (error) {
+				console.error("Error fetching JSON data. RIP")
+			}
+		};
+
+		fetchData();
+		const interval = setInterval(fetchData, 10000)
+		return () => clearInterval(interval)
+
+	}, []);
     
 	const handleNodeClick = (nodename) => {
   		if (selectedNode === nodename) {
@@ -22,20 +38,22 @@ const ClusterDashboard = () => {
 	};
 
 
-	const [colorMode, setColorMode] = useState("cores"); 
 	const handleColorModeChange = (mode) => {
-    setColorMode(mode);
+    	setColorMode(mode);
     };
 
-	const [keyMode, setKeyMode] = useState(false); 
 	const handleKeyModeChange = (mode) => {
-    setKeyMode(prev => !prev);
+    	setKeyMode(prev => !prev);
     };
+
+	const nodes = Object.keys(nodeCoresData);
+    const cores = Object.values(nodeCoresData);
+
     return (
         <div className="dashboard-container">
 			<NavBar/>
 		    <div className="color-mode-buttons">
-        		<button className="button-opt" onClick={() => handleColorModeChange("cores")}>Cores</button>
+        		<button className="button-opt" onClick={() => handleColorModeChange("cores")}>Cores in Use</button>
         		<button className="button-opt" onClick={() => {
 					handleColorModeChange("partitions"); 
 				    }}

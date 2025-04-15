@@ -15,6 +15,7 @@ const Sidebar = ({ node, cores, onClose }) => {
   		<p><strong>GRES:</strong> {nodeInfo.gres}</p>
 	  </div>
 	  <div>Cores in use: {nodeCoresData[node]}</div>
+	  <div>Total Cores: {nodeInfo["core_count"]}</div>
 
     </div>
   );

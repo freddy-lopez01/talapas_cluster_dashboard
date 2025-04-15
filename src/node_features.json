@@ -5,7 +5,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0111": {
         "features": "amd,milan,7713",
@@ -13,7 +14,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 124
     },
     "n0374": {
         "features": "intel,broadwell,e7-4830,mem-4tb",
@@ -22,7 +24,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0160": {
         "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
@@ -30,7 +33,8 @@
             "gpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+        "gres": "gpu:nvidia_a100_80gb_pcie:1",
+        "core_count": 48
     },
     "n0210": {
         "features": "intel,broadwell,e5-2690",
@@ -38,7 +42,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0075": {
         "features": "intel,broadwell,e5-2690",
@@ -47,7 +52,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0305": {
         "features": "intel,broadwell,e5-2690v4",
@@ -55,7 +61,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0399": {
         "features": "intel,broadwell,e5-2690v4",
@@ -63,7 +70,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0396": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -71,7 +79,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0151": {
         "features": "amd,milan,7413,a100,gpu-10gb",
@@ -79,7 +88,8 @@
             "gpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21",
+        "core_count": 48
     },
     "n0221": {
         "features": "intel,cascadelake,6248",
@@ -87,7 +97,8 @@
             "kuhl",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0044": {
         "features": "intel,skylake,6148",
@@ -95,7 +106,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0334": {
         "features": "amd,milan,7513",
@@ -103,7 +115,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 64
     },
     "n0250": {
         "features": "intel,skylake,6148",
@@ -111,7 +124,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0120": {
         "features": "amd,milan,7713",
@@ -120,7 +134,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0182": {
         "features": "amd,milan,7713",
@@ -129,7 +144,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0345": {
         "features": "intel,skylake,6148",
@@ -137,7 +153,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0035": {
         "features": "intel,broadwell,e5-2690",
@@ -145,7 +162,8 @@
             "compute_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0243": {
         "features": "intel,skylake,6148",
@@ -153,7 +171,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": "N/A"
     },
     "n0084": {
         "features": "intel,broadwell,e5-2690",
@@ -162,7 +181,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0133": {
         "features": "amd,milan,7713",
@@ -171,7 +191,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0368": {
         "features": "amd,milan,7413",
@@ -179,7 +200,8 @@
             "datascience",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0356": {
         "features": "intel,cascadelake,6230",
@@ -187,7 +209,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0191": {
         "features": "amd,milan,7713",
@@ -196,7 +219,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0069": {
         "features": "intel,broadwell,e5-2690",
@@ -205,7 +229,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0319": {
         "features": "intel,cascadelake,6248",
@@ -213,7 +238,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0142": {
         "features": "intel,icelake,6348,mem-4tb",
@@ -222,7 +248,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0385": {
         "features": "intel,cascadelake,6248,v100,gpu-32gb",
@@ -230,7 +257,8 @@
             "cisds",
             "preempt"
         ],
-        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+        "gres": "gpu:tesla_v100-sxm2-32gb:4",
+        "core_count": 40
     },
     "n0232": {
         "features": "intel,skylake,6148",
@@ -238,7 +266,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0057": {
         "features": "intel,broadwell,e5-2690",
@@ -247,7 +276,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0327": {
         "features": "intel,cascadelake,6248",
@@ -255,7 +285,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0058": {
         "features": "intel,broadwell,e5-2690",
@@ -264,7 +295,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0328": {
         "features": "intel,cascadelake,6248",
@@ -272,7 +304,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0173": {
         "features": "amd,milan,7713",
@@ -280,7 +313,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0203": {
         "features": "intel,broadwell,e5-2690",
@@ -288,7 +322,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0066": {
         "features": "intel,broadwell,e5-2690",
@@ -297,7 +332,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0316": {
         "features": "amd,milan,7543,a100,gpu-40gb,no-mig",
@@ -305,7 +341,8 @@
             "kerngpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100-pcie-40gb:3"
+        "gres": "gpu:nvidia_a100-pcie-40gb:3",
+        "core_count": 64
     },
     "n0359": {
         "features": "intel,skylake,6148",
@@ -313,7 +350,8 @@
             "hendon",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0367": {
         "features": "intel,cascadelake,6230",
@@ -321,7 +359,8 @@
             "dsci100",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0330": {
         "features": "intel,cascadelake,6248",
@@ -329,7 +368,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0040": {
         "features": "intel,skylake,6148",
@@ -337,7 +377,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0225": {
         "features": "intel,cascadelake,6248",
@@ -345,7 +386,8 @@
             "melgar",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0155": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -354,7 +396,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0392": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -362,7 +405,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0341": {
         "features": "intel,skylake,6148",
@@ -370,7 +414,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0186": {
         "features": "amd,milan,7713",
@@ -379,7 +424,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0124": {
         "features": "amd,milan,7713",
@@ -388,7 +434,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0254": {
         "features": "intel,skylake,6148",
@@ -396,7 +443,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0093": {
         "features": "intel,broadwell,e5-2690",
@@ -405,7 +453,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0370": {
         "features": "amd,milan,7413",
@@ -413,7 +462,8 @@
             "datascience",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0115": {
         "features": "amd,milan,7713",
@@ -421,7 +471,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0265": {
         "features": "intel,skylake,6148",
@@ -429,7 +480,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0189": {
         "features": "amd,milan,7713",
@@ -438,7 +490,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0301": {
         "features": "amd,rome,7542,a100,gpu-40gb,gpu-80gb,no-mig",
@@ -447,7 +500,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100-pcie-40gb:1,gpu:nvidia_a100_80gb_pcie:2"
+        "gres": "gpu:nvidia_a100-pcie-40gb:1,gpu:nvidia_a100_80gb_pcie:2",
+        "core_count": 64
     },
     "n0071": {
         "features": "intel,broadwell,e5-2690",
@@ -456,7 +510,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0214": {
         "features": "intel,skylake,6148",
@@ -464,7 +519,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0164": {
         "features": "amd,milan,7413,a100,gpu-80gb,3xgpu-80gb,no-mig",
@@ -473,7 +529,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:3"
+        "gres": "gpu:nvidia_a100_80gb_pcie:3",
+        "core_count": 48
     },
     "n0312": {
         "features": "intel,broadwell,e5-2690v4",
@@ -481,7 +538,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0062": {
         "features": "intel,broadwell,e5-2690",
@@ -490,7 +548,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0239": {
         "features": "intel,skylake,6148",
@@ -498,7 +557,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0149": {
         "features": "amd,milan,7413,a100,gpu-10gb",
@@ -506,7 +566,8 @@
             "gpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:28"
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:28",
+        "core_count": 48
     },
     "n0207": {
         "features": "intel,broadwell,e5-2690",
@@ -514,7 +575,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0177": {
         "features": "amd,milan,7713",
@@ -522,7 +584,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0248": {
         "features": "intel,skylake,6148",
@@ -530,7 +593,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0363": {
         "features": "amd,milan,7713,a100,gpu-80gb,no-mig",
@@ -538,7 +602,8 @@
             "lowd",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+        "gres": "gpu:nvidia_a100_80gb_pcie:2",
+        "core_count": 128
     },
     "n0106": {
         "features": "intel,broadwell,e5-2690",
@@ -547,7 +612,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0109": {
         "features": "intel,icelake,6338n",
@@ -555,7 +621,8 @@
             "cryoc",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 64
     },
     "n0195": {
         "features": "amd,milan,7713",
@@ -563,7 +630,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0352": {
         "features": "intel,cascadelake,6230",
@@ -571,7 +639,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0080": {
         "features": "intel,broadwell,e5-2690",
@@ -580,7 +649,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0247": {
         "features": "intel,skylake,6148",
@@ -588,7 +658,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0323": {
         "features": "intel,cascadelake,6248",
@@ -596,7 +667,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0053": {
         "features": "intel,broadwell,e5-2690",
@@ -605,7 +677,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0208": {
         "features": "intel,broadwell,e5-2690",
@@ -613,7 +686,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0178": {
         "features": "amd,milan,7713",
@@ -621,7 +695,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0236": {
         "features": "intel,skylake,6148",
@@ -629,7 +704,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0381": {
         "features": "intel,cascadelake,6248",
@@ -637,7 +713,8 @@
             "karlstrom",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0146": {
         "features": "intel,icelake,6348,mem-2tb",
@@ -646,7 +723,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0204": {
         "features": "intel,broadwell,e5-2690",
@@ -654,7 +732,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0174": {
         "features": "amd,milan,7713",
@@ -662,7 +741,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0311": {
         "features": "intel,broadwell,e5-2690v4",
@@ -670,7 +750,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0061": {
         "features": "intel,broadwell,e5-2690",
@@ -679,7 +760,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0105": {
         "features": "intel,broadwell,e5-2690",
@@ -688,7 +770,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0199": {
         "features": "intel,icelake,6342",
@@ -696,7 +779,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0360": {
         "features": "intel,skylake,6148",
@@ -704,7 +788,8 @@
             "hendon",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0134": {
         "features": "amd,milan,7713",
@@ -713,7 +798,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0244": {
         "features": "intel,skylake,6148",
@@ -721,7 +807,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0083": {
         "features": "intel,broadwell,e5-2690",
@@ -730,7 +817,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0351": {
         "features": "amd,milan,7413",
@@ -738,7 +826,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0196": {
         "features": "amd,milan,7713",
@@ -746,7 +835,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n1000": {
         "features": "intel,sapphirerapids,8480cl,mem-2tb,h100,gpu-80gb",
@@ -754,7 +844,8 @@
             "kerngpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_h100_80gb_hbm3:8"
+        "gres": "gpu:nvidia_h100_80gb_hbm3:8",
+        "core_count": 112
     },
     "n0235": {
         "features": "intel,skylake,6148",
@@ -762,7 +853,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0145": {
         "features": "intel,icelake,6348,mem-2tb",
@@ -770,7 +862,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0382": {
         "features": "intel,skylake,6148",
@@ -778,7 +871,8 @@
             "karlstrom",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0999": {
         "features": "intel,sapphirerapids,6442y,mem-1tb,h100,gpu-80gb",
@@ -786,7 +880,8 @@
             "cisds",
             "preempt"
         ],
-        "gres": "gpu:nvidia_h100_80gb_hbm3:4"
+        "gres": "gpu:nvidia_h100_80gb_hbm3:4",
+        "core_count": 48
     },
     "n0320": {
         "features": "intel,cascadelake,6248",
@@ -794,7 +889,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0050": {
         "features": "intel,broadwell,e5-2690",
@@ -803,7 +899,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0226": {
         "features": "intel,cascadelake,6248",
@@ -811,7 +908,8 @@
             "melgar",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0391": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -819,7 +917,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0156": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -828,7 +927,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0333": {
         "features": "amd,milan,7513",
@@ -836,7 +936,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 64
     },
     "n0043": {
         "features": "intel,skylake,6148",
@@ -844,7 +945,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0218": {
         "features": "intel,skylake,6148",
@@ -852,7 +954,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0168": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -861,7 +964,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0127": {
         "features": "amd,milan,7713",
@@ -870,7 +974,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0090": {
         "features": "intel,broadwell,e5-2690",
@@ -879,7 +984,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0257": {
         "features": "intel,skylake,6148",
@@ -887,7 +993,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0119": {
         "features": "amd,milan,7713",
@@ -896,7 +1003,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0269": {
         "features": "intel,icelake,6342",
@@ -904,7 +1012,8 @@
             "rohlfs",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0185": {
         "features": "amd,milan,7713",
@@ -913,7 +1022,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0342": {
         "features": "intel,skylake,6148",
@@ -921,7 +1031,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0116": {
         "features": "amd,milan,7713",
@@ -929,7 +1040,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0266": {
         "features": "intel,icelake,6348,mem-1tb",
@@ -937,7 +1049,8 @@
             "rohlfs",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0128": {
         "features": "amd,milan,7713",
@@ -946,7 +1059,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0258": {
         "features": "intel,skylake,6148",
@@ -954,7 +1068,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0373": {
         "features": "intel,broadwell,e7-4830,mem-1tb",
@@ -962,7 +1077,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0217": {
         "features": "intel,skylake,6148",
@@ -970,7 +1086,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0167": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -979,7 +1096,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0302": {
         "features": "intel,broadwell,e5-2690v4",
@@ -987,7 +1105,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0072": {
         "features": "intel,broadwell,e5-2690",
@@ -996,7 +1115,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0229": {
         "features": "intel,cascadelake,6248",
@@ -1004,7 +1124,8 @@
             "phillips",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0159": {
         "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
@@ -1012,7 +1133,8 @@
             "gpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+        "gres": "gpu:nvidia_a100_80gb_pcie:1",
+        "core_count": 48
     },
     "n0192": {
         "features": "amd,milan,7713",
@@ -1021,7 +1143,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0355": {
         "features": "intel,cascadelake,6230",
@@ -1029,7 +1152,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0087": {
         "features": "intel,broadwell,e5-2690",
@@ -1038,7 +1162,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0240": {
         "features": "intel,skylake,6148",
@@ -1046,7 +1171,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0130": {
         "features": "amd,milan,7713",
@@ -1055,7 +1181,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0054": {
         "features": "intel,broadwell,e5-2690",
@@ -1064,7 +1191,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0324": {
         "features": "intel,cascadelake,6248",
@@ -1072,7 +1200,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0386": {
         "features": "intel,cascadelake,6248,v100,gpu-32gb",
@@ -1080,7 +1209,8 @@
             "cisds",
             "preempt"
         ],
-        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+        "gres": "gpu:tesla_v100-sxm2-32gb:4",
+        "core_count": 40
     },
     "n0141": {
         "features": "intel,icelake,6348,mem-4tb",
@@ -1088,7 +1218,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0231": {
         "features": "intel,skylake,6148",
@@ -1096,7 +1227,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0065": {
         "features": "intel,broadwell,e5-2690",
@@ -1105,7 +1237,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0315": {
         "features": "amd,milan,7543,a100,gpu-20gb",
@@ -1113,7 +1246,8 @@
             "kerngpu",
             "preempt"
         ],
-        "gres": "gpu:3g.20gb:6"
+        "gres": "gpu:3g.20gb:6",
+        "core_count": 64
     },
     "n0389": {
         "features": "intel,cascadelake,6248",
@@ -1121,14 +1255,16 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0170": {
         "features": "amd,milan,7413,a100,no-mig",
         "partitions": [
             "heidl"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+        "gres": "gpu:nvidia_a100_80gb_pcie:2",
+        "core_count": 48
     },
     "n0088": {
         "features": "intel,broadwell,e5-2690",
@@ -1137,7 +1273,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0364": {
         "features": "intel,cascadelake,8280l,mem-6tb",
@@ -1145,7 +1282,8 @@
             "datascience",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0377": {
         "features": "intel,broadwell,e7-4830,mem-2tb",
@@ -1153,7 +1291,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0262": {
         "features": "intel,skylake,6148",
@@ -1161,7 +1300,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0112": {
         "features": "amd,milan,7713",
@@ -1169,7 +1309,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0349": {
         "features": "amd,milan,7413",
@@ -1177,7 +1318,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0039": {
         "features": "intel,skylake,6148",
@@ -1185,7 +1327,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0076": {
         "features": "intel,broadwell,e5-2690",
@@ -1194,7 +1337,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0306": {
         "features": "intel,broadwell,e5-2690v4",
@@ -1202,7 +1346,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0338": {
         "features": "intel,skylake,6148",
@@ -1210,7 +1355,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0163": {
         "features": "amd,milan,7413,a100,gpu-10gb",
@@ -1219,7 +1365,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21",
+        "core_count": 48
     },
     "n0213": {
         "features": "intel,skylake,6148",
@@ -1227,7 +1374,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0337": {
         "features": "intel,skylake,6148",
@@ -1235,7 +1383,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0079": {
         "features": "intel,broadwell,e5-2690",
@@ -1244,7 +1393,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0309": {
         "features": "intel,broadwell,e5-2690v4",
@@ -1252,7 +1402,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0152": {
         "features": "amd,milan,7413,a100,3xgpu-80gb,no-mig",
@@ -1261,7 +1412,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:3"
+        "gres": "gpu:nvidia_a100_80gb_pcie:3",
+        "core_count": 48
     },
     "n0395": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -1269,7 +1421,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0222": {
         "features": "intel,cascadelake,6248",
@@ -1277,7 +1430,8 @@
             "kuhl",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0346": {
         "features": "intel,cascadelake,6248",
@@ -1285,7 +1439,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0181": {
         "features": "amd,milan,7713",
@@ -1294,7 +1449,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0036": {
         "features": "intel,broadwell,e5-2690",
@@ -1302,7 +1458,8 @@
             "compute_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0253": {
         "features": "intel,skylake,6148",
@@ -1310,7 +1467,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0094": {
         "features": "intel,broadwell,e5-2690",
@@ -1319,7 +1477,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0123": {
         "features": "amd,milan,7713",
@@ -1328,7 +1487,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0378": {
         "features": "intel,broadwell,e7-4830,mem-2tb",
@@ -1337,7 +1497,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0237": {
         "features": "intel,skylake,6148",
@@ -1345,7 +1506,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0147": {
         "features": "intel,icelake,6348,mem-1tb",
@@ -1353,7 +1515,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0380": {
         "features": "amd,milan,7413,mem-1tb",
@@ -1361,7 +1524,8 @@
             "dasa",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0322": {
         "features": "intel,cascadelake,6248",
@@ -1369,7 +1533,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0052": {
         "features": "intel,broadwell,e5-2690",
@@ -1378,7 +1543,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0209": {
         "features": "intel,broadwell,e5-2690",
@@ -1386,7 +1552,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0179": {
         "features": "amd,milan,7713",
@@ -1394,7 +1561,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0136": {
         "features": "amd,milan,7713",
@@ -1402,7 +1570,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0246": {
         "features": "intel,skylake,6148",
@@ -1410,7 +1579,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0081": {
         "features": "intel,broadwell,e5-2690",
@@ -1419,7 +1589,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0353": {
         "features": "intel,cascadelake,6230",
@@ -1427,7 +1598,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0194": {
         "features": "amd,milan,7713",
@@ -1435,7 +1607,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0107": {
         "features": "intel,broadwell,e5-2690",
@@ -1444,7 +1617,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0249": {
         "features": "intel,skylake,6148",
@@ -1452,7 +1626,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0362": {
         "features": "intel,skylake,6148",
@@ -1460,7 +1635,8 @@
             "hendon",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0206": {
         "features": "intel,broadwell,e5-2690",
@@ -1468,7 +1644,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0176": {
         "features": "amd,milan,7713",
@@ -1476,7 +1653,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0313": {
         "features": "intel,broadwell,e5-2690v4",
@@ -1484,7 +1662,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0063": {
         "features": "intel,broadwell,e5-2690",
@@ -1493,7 +1672,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0238": {
         "features": "intel,skylake,6148",
@@ -1501,7 +1681,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0148": {
         "features": "intel,icelake,6348,mem-1tb",
@@ -1510,7 +1691,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0215": {
         "features": "intel,skylake,6148",
@@ -1518,7 +1700,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0165": {
         "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
@@ -1527,7 +1710,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+        "gres": "gpu:nvidia_a100_80gb_pcie:2",
+        "core_count": 48
     },
     "n0070": {
         "features": "intel,broadwell,e5-2690",
@@ -1536,7 +1720,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0114": {
         "features": "amd,milan,7713",
@@ -1544,7 +1729,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0264": {
         "features": "intel,skylake,6148",
@@ -1552,7 +1738,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0188": {
         "features": "amd,milan,7713",
@@ -1561,7 +1748,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0371": {
         "features": "amd,milan,7413",
@@ -1569,7 +1757,8 @@
             "datascience",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0125": {
         "features": "amd,milan,7713",
@@ -1578,7 +1767,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0092": {
         "features": "intel,broadwell,e5-2690",
@@ -1587,7 +1777,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0255": {
         "features": "intel,skylake,6148",
@@ -1595,7 +1786,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0187": {
         "features": "amd,milan,7713",
@@ -1604,7 +1796,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0340": {
         "features": "intel,skylake,6148",
@@ -1612,7 +1805,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0224": {
         "features": "intel,cascadelake,6248",
@@ -1620,7 +1814,8 @@
             "kuhl",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0393": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -1628,7 +1823,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0154": {
         "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
@@ -1636,7 +1832,8 @@
             "gpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+        "gres": "gpu:nvidia_a100_80gb_pcie:2",
+        "core_count": 48
     },
     "n0331": {
         "features": "intel,cascadelake,6248",
@@ -1644,7 +1841,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0041": {
         "features": "intel,skylake,6148",
@@ -1652,7 +1850,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0366": {
         "features": "intel,cascadelake,6230",
@@ -1660,7 +1859,8 @@
             "dsci100",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0358": {
         "features": "intel,cascadelake,6230",
@@ -1668,7 +1868,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0067": {
         "features": "intel,broadwell,e5-2690",
@@ -1677,7 +1878,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0317": {
         "features": "intel,cascadelake,6248",
@@ -1685,7 +1887,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0059": {
         "features": "intel,broadwell,e5-2690",
@@ -1694,7 +1897,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0329": {
         "features": "intel,cascadelake,6248",
@@ -1702,7 +1906,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0172": {
         "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
@@ -1711,7 +1916,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+        "gres": "gpu:nvidia_a100_80gb_pcie:1",
+        "core_count": 48
     },
     "n0202": {
         "features": "intel,broadwell,e5-2690",
@@ -1719,7 +1925,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0056": {
         "features": "intel,broadwell,e5-2690",
@@ -1728,7 +1935,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0326": {
         "features": "intel,cascadelake,6248",
@@ -1736,7 +1944,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0068": {
         "features": "intel,broadwell,e5-2690",
@@ -1745,7 +1954,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0318": {
         "features": "intel,cascadelake,6248",
@@ -1753,7 +1963,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0384": {
         "features": "intel,skylake,6148",
@@ -1761,7 +1972,8 @@
             "racs",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0143": {
         "features": "intel,icelake,6348,mem-2tb",
@@ -1769,7 +1981,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0233": {
         "features": "intel,skylake,6148",
@@ -1777,7 +1990,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0190": {
         "features": "amd,milan,7713",
@@ -1786,7 +2000,8 @@
             "computelong",
             "compute"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0357": {
         "features": "intel,cascadelake,6230",
@@ -1794,7 +2009,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0085": {
         "features": "intel,broadwell,e5-2690",
@@ -1803,7 +2019,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0242": {
         "features": "intel,skylake,6148",
@@ -1811,7 +2028,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0132": {
         "features": "amd,milan,7713",
@@ -1820,7 +2038,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0369": {
         "features": "amd,milan,7413",
@@ -1828,7 +2047,8 @@
             "datascience",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0344": {
         "features": "intel,skylake,6148",
@@ -1836,7 +2056,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0183": {
         "features": "amd,milan,7713",
@@ -1845,7 +2066,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0034": {
         "features": "intel,broadwell,e5-2690",
@@ -1853,7 +2075,8 @@
             "compute_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0251": {
         "features": "intel,skylake,6148",
@@ -1861,7 +2084,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0096": {
         "features": "intel,broadwell,e5-2690",
@@ -1870,7 +2094,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0121": {
         "features": "amd,milan,7713",
@@ -1879,7 +2104,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0045": {
         "features": "amd,genoa,9354p,a40,gpu-48gb",
@@ -1887,7 +2113,8 @@
             "ray",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a40:2"
+        "gres": "gpu:nvidia_a40:2",
+        "core_count": 32
     },
     "n0335": {
         "features": "amd,milan,7513",
@@ -1895,7 +2122,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 64
     },
     "n0150": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -1904,7 +2132,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0397": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -1912,7 +2141,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0220": {
         "features": "intel,skylake,6148",
@@ -1920,7 +2150,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0074": {
         "features": "intel,broadwell,e5-2690",
@@ -1929,7 +2160,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0304": {
         "features": "intel,broadwell,e5-2690v4",
@@ -1937,7 +2169,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0398": {
         "features": "intel,broadwell,e5-2690v4",
@@ -1945,7 +2178,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0161": {
         "features": "amd,milan,7413,a100,gpu-10gb",
@@ -1953,7 +2187,8 @@
             "interactivegpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21",
+        "core_count": 48
     },
     "n0211": {
         "features": "intel,broadwell,e5-2690",
@@ -1961,7 +2196,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0375": {
         "features": "intel,broadwell,e7-4830,mem-4tb",
@@ -1969,7 +2205,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0260": {
         "features": "intel,skylake,6148",
@@ -1977,7 +2214,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0110": {
         "features": "amd,genoa,9354p,l40,gpu-48gb",
@@ -1985,7 +2223,8 @@
             "murray",
             "preempt"
         ],
-        "gres": "gpu:nvidia_l40:2"
+        "gres": "gpu:nvidia_l40:2",
+        "core_count": 32
     },
     "n0095": {
         "features": "intel,broadwell,e5-2690",
@@ -1994,7 +2233,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0252": {
         "features": "intel,skylake,6148",
@@ -2002,7 +2242,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0122": {
         "features": "amd,milan,7713",
@@ -2011,7 +2252,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0379": {
         "features": "intel,broadwell,e7-4830,mem-2tb",
@@ -2019,7 +2261,8 @@
             "memory",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0180": {
         "features": "amd,milan,7713",
@@ -2028,7 +2271,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0347": {
         "features": "intel,skylake,6148",
@@ -2036,7 +2280,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0037": {
         "features": "intel,skylake,6148",
@@ -2044,7 +2289,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0078": {
         "features": "intel,broadwell,e5-2690",
@@ -2053,7 +2299,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0308": {
         "features": "intel,broadwell,e5-2690v4",
@@ -2061,7 +2308,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0394": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -2069,7 +2317,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0153": {
         "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
@@ -2078,7 +2327,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+        "gres": "gpu:nvidia_a100_80gb_pcie:2",
+        "core_count": 48
     },
     "n0223": {
         "features": "intel,cascadelake,6248",
@@ -2086,7 +2336,8 @@
             "kuhl",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0046": {
         "features": "amd,genoa,9354p,a40,gpu-48gb",
@@ -2094,7 +2345,8 @@
             "ray",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a40:2"
+        "gres": "gpu:nvidia_a40:2",
+        "core_count": 32
     },
     "n0336": {
         "features": "intel,cascadelake,6248,v100,gpu-32gb",
@@ -2102,7 +2354,8 @@
             "kerngpu",
             "preempt"
         ],
-        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+        "gres": "gpu:tesla_v100-sxm2-32gb:4",
+        "core_count": 40
     },
     "n0049": {
         "features": "intel,broadwell,e5-2690",
@@ -2111,7 +2364,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0339": {
         "features": "intel,skylake,6148",
@@ -2119,7 +2373,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0162": {
         "features": "amd,milan,7413,a100,gpu-10gb",
@@ -2128,7 +2383,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21"
+        "gres": "gpu:nvidia_a100_80gb_pcie_1g.10gb:21",
+        "core_count": 48
     },
     "n0212": {
         "features": "intel,broadwell,e5-2690",
@@ -2136,7 +2392,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0077": {
         "features": "intel,broadwell,e5-2690",
@@ -2145,7 +2402,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0307": {
         "features": "intel,broadwell,e5-2690v4",
@@ -2153,7 +2411,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0263": {
         "features": "intel,skylake,6148",
@@ -2161,7 +2420,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0113": {
         "features": "amd,milan,7713",
@@ -2169,7 +2429,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0348": {
         "features": "intel,cascadelake,6248",
@@ -2177,7 +2438,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0038": {
         "features": "intel,skylake,6148",
@@ -2185,7 +2447,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0376": {
         "features": "intel,broadwell,e7-4830,mem-2tb",
@@ -2194,7 +2457,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0270": {
         "features": "amd,milan,7413",
@@ -2202,7 +2466,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0089": {
         "features": "intel,broadwell,e5-2690",
@@ -2211,7 +2476,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0365": {
         "features": "intel,cascadelake,6230",
@@ -2219,7 +2485,8 @@
             "dsci100",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0171": {
         "features": "amd,milan,7413,a100,gpu-80gb,no-mig",
@@ -2228,7 +2495,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:1"
+        "gres": "gpu:nvidia_a100_80gb_pcie:1",
+        "core_count": 48
     },
     "n0201": {
         "features": "intel,broadwell,e5-2690",
@@ -2236,7 +2504,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0064": {
         "features": "intel,broadwell,e5-2690",
@@ -2245,7 +2514,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0314": {
         "features": "amd,milan,7543,a100,gpu-20gb",
@@ -2253,7 +2523,8 @@
             "kerngpu",
             "preempt"
         ],
-        "gres": "gpu:3g.20gb:6"
+        "gres": "gpu:3g.20gb:6",
+        "core_count": 64
     },
     "n0388": {
         "features": "intel,cascadelake,6248",
@@ -2261,7 +2532,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0387": {
         "features": "intel,cascadelake,6248,v100,gpu-32gb",
@@ -2269,7 +2541,8 @@
             "cisds",
             "preempt"
         ],
-        "gres": "gpu:tesla_v100-sxm2-32gb:4"
+        "gres": "gpu:tesla_v100-sxm2-32gb:4",
+        "core_count": 40
     },
     "n0230": {
         "features": "intel,skylake,6148",
@@ -2277,7 +2550,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0055": {
         "features": "intel,broadwell,e5-2690",
@@ -2286,7 +2560,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0325": {
         "features": "intel,cascadelake,6248",
@@ -2294,7 +2569,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0241": {
         "features": "intel,skylake,6148",
@@ -2302,7 +2578,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0086": {
         "features": "intel,broadwell,e5-2690",
@@ -2311,7 +2588,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0131": {
         "features": "amd,milan,7713",
@@ -2320,7 +2598,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0354": {
         "features": "intel,cascadelake,6230",
@@ -2328,7 +2607,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0193": {
         "features": "amd,milan,7713",
@@ -2336,7 +2616,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0303": {
         "features": "intel,broadwell,e5-2690v4",
@@ -2344,7 +2625,8 @@
             "cengiz",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0073": {
         "features": "intel,broadwell,e5-2690",
@@ -2353,7 +2635,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0228": {
         "features": "intel,skylake,6148",
@@ -2361,7 +2644,8 @@
             "phillips",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0158": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -2369,7 +2653,8 @@
             "gpu",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0216": {
         "features": "intel,skylake,6148",
@@ -2377,7 +2662,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0166": {
         "features": "amd,milan,7413,a100,gpu-80gb,2xgpu-80gb,no-mig",
@@ -2386,7 +2672,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie:2"
+        "gres": "gpu:nvidia_a100_80gb_pcie:2",
+        "core_count": 48
     },
     "n0129": {
         "features": "amd,milan,7713",
@@ -2395,7 +2682,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0259": {
         "features": "intel,skylake,6148",
@@ -2403,7 +2691,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0372": {
         "features": "intel,broadwell,e7-4830,mem-1t",
@@ -2412,7 +2701,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0117": {
         "features": "amd,milan,7713",
@@ -2420,7 +2710,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0267": {
         "features": "intel,icelake,6348,mem-1tb",
@@ -2428,7 +2719,8 @@
             "rohlfs",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0118": {
         "features": "amd,milan,7713",
@@ -2436,7 +2728,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0268": {
         "features": "intel,icelake,6342",
@@ -2444,7 +2737,8 @@
             "rohlfs",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0033": {
         "features": "intel,broadwell,e5-2690",
@@ -2452,7 +2746,8 @@
             "compute_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0343": {
         "features": "intel,skylake,6148",
@@ -2460,7 +2755,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0184": {
         "features": "amd,milan,7713",
@@ -2469,7 +2765,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0126": {
         "features": "amd,milan,7713",
@@ -2478,7 +2775,8 @@
             "computelong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0256": {
         "features": "intel,skylake,6148",
@@ -2486,7 +2784,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0091": {
         "features": "intel,broadwell,e5-2690",
@@ -2495,7 +2794,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0332": {
         "features": "amd,milan,7513",
@@ -2503,7 +2803,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 64
     },
     "n0042": {
         "features": "intel,skylake,6148",
@@ -2511,7 +2812,8 @@
             "paty",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0219": {
         "features": "intel,skylake,6148",
@@ -2519,7 +2821,8 @@
             "gc3f",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0169": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -2528,7 +2831,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0227": {
         "features": "intel,skylake,6148",
@@ -2536,7 +2840,8 @@
             "phillips",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0157": {
         "features": "amd,milan,7413,a100,gpu-40gb",
@@ -2545,7 +2850,8 @@
             "gpulong",
             "preempt"
         ],
-        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4"
+        "gres": "gpu:nvidia_a100_80gb_pcie_3g.40gb:4",
+        "core_count": 48
     },
     "n0390": {
         "features": "intel,cascadelake,6230,tmp-9tb",
@@ -2553,7 +2859,8 @@
             "amt",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0998": {
         "features": "intel,sapphirerapids,6442y,mem-1tb,h100,gpu-80gb",
@@ -2561,7 +2868,8 @@
             "cisds",
             "preempt"
         ],
-        "gres": "gpu:nvidia_h100_80gb_hbm3:4"
+        "gres": "gpu:nvidia_h100_80gb_hbm3:4",
+        "core_count": 48
     },
     "n0321": {
         "features": "intel,cascadelake,6248",
@@ -2569,7 +2877,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0051": {
         "features": "intel,broadwell,e5-2690",
@@ -2578,7 +2887,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0234": {
         "features": "intel,skylake,6148",
@@ -2586,7 +2896,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0383": {
         "features": "intel,cascadelake,6248",
@@ -2594,7 +2905,8 @@
             "ctn",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0144": {
         "features": "intel,icelake,6348,mem-2tb",
@@ -2603,7 +2915,8 @@
             "memorylong",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 56
     },
     "n0197": {
         "features": "intel,sapphirerapids,6448y,mem-1tb,l40s,gpu-48gb",
@@ -2611,7 +2924,8 @@
             "dgl",
             "preempt"
         ],
-        "gres": "gpu:nvidia_l40s:4"
+        "gres": "gpu:nvidia_l40s:4",
+        "core_count": 64
     },
     "n0350": {
         "features": "amd,milan,7413",
@@ -2619,7 +2933,8 @@
             "bgmp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 48
     },
     "n0135": {
         "features": "amd,milan,7713",
@@ -2627,7 +2942,8 @@
             "compute",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0082": {
         "features": "intel,broadwell,e5-2690",
@@ -2636,7 +2952,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0245": {
         "features": "intel,skylake,6148",
@@ -2644,7 +2961,8 @@
             "dufek",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0361": {
         "features": "intel,skylake,6148",
@@ -2652,7 +2970,8 @@
             "hendon",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 40
     },
     "n0310": {
         "features": "intel,broadwell,e5-2690v4",
@@ -2660,7 +2979,8 @@
             "interactive",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0060": {
         "features": "intel,broadwell,e5-2690",
@@ -2669,7 +2989,8 @@
             "computelong_intel",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0205": {
         "features": "intel,broadwell,e5-2690",
@@ -2677,7 +2998,8 @@
             "jhp",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 28
     },
     "n0175": {
         "features": "amd,milan,7713",
@@ -2685,7 +3007,8 @@
             "kern",
             "preempt"
         ],
-        "gres": "N/A"
+        "gres": "N/A",
+        "core_count": 128
     },
     "n0997": {
         "features": "intel,sapphirerapids,6442y,mem-1tb,h100,gpu-80gb",
@@ -2693,6 +3016,7 @@
             "chen",
             "preempt"
         ],
-        "gres": "gpu:nvidia_h100_80gb_hbm3:4"
+        "gres": "gpu:nvidia_h100_80gb_hbm3:4",
+        "core_count": 48
     }
 }

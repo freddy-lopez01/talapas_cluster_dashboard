@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   gap: 12px;
   padding: 12px;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .key-item {

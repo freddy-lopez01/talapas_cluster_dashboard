@@ -4,7 +4,7 @@ import partitionColors from "../partitionColors.json";
 
 export const getColor = (nodename, coreValue, colorMode, cores) => {
   const nodeInfo = nodeDetailsData[nodename];
-  const maxCores = Math.max(...cores);
+  const maxCores = nodeInfo["core_count"]
 
   switch (colorMode) {
     case "cores":
