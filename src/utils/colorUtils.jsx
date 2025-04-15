@@ -19,22 +19,22 @@ export const getColor = (nodename, coreValue, colorMode, cores) => {
 	  console.log(nodeInfo.partitions)
 	  const nonPreemptPartition = nodeInfo.partitions.find(partition => partition !== "preempt");
 
-  // If a non-preempt partition is found, return its associated color
+  	  // If a non-preempt partition is found, return its associated color
       if (nonPreemptPartition) {
-        return partitionColors[nonPreemptPartition] || "rgba(150,150,150,0.6)"; // Default color if partition not found in the map
+        return partitionColors.partitions[nonPreemptPartition] || "rgba(150,150,150,0.6)";
       } else {
-        return "rgba(255, 255, 0, 0.3)"; // Return a fallback color if all partitions are "preempt"
+        return "rgba(255, 255, 0, 0.3)";
       }
 
     case "architecture":
       return nodeInfo.features.includes("amd")
-        ? "rgba(255, 99, 132, 0.3)"
-        : "rgba(75, 192, 192, 0.3)";
+        ? partitionColors.architecture["amd"]
+        : partitionColors.architecture["intel"];
 
-    case "gpu":
+    case "gpus":
       return nodeInfo.gres.includes("gpu")
-        ? "rgba(255, 165, 0, 0.4)"
-        : "rgba(200, 200, 200, 0.3)";
+        ? partitionColors.gpus["gpu"]
+        : partitionColors.gpus["cpu only"];
 
     default:
       return "rgba(220,220,220,0.3)";

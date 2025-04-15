@@ -59,10 +59,20 @@
 .button-opt {
 	font-family: 'Poppins', sans-serif;
 	padding: 10px;
+	margin-right: 1vh;
 	margin-bottom: 1vh;
 	border-radius: 10px;
 	background-color: rgba(211, 211, 211, 0.1);
 
+}
+
+.color-mode-buttons .legend-button {
+	font-family: 'Poppins', sans-serif;
+	padding: 6px;
+	margin-bottom: 1vh;
+	margin-left: 2vh;
+	border-radius: 10px;
+	background-color: rgba(211, 211, 211, 0.1);
 }
 
 .grid-container {
