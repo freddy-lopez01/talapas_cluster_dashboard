@@ -68,7 +68,7 @@ const ClusterDashboard = () => {
 				<NodeGrid nodes={nodes} cores={cores} colorMode={colorMode} onNodeClick={handleNodeClick}/>
 
 				{selectedNode && (
-					<Sidebar node={selectedNode} onClose={() => setSelectedNode(null)} />
+					<Sidebar node={selectedNode} cores={cores} onClose={() => setSelectedNode(null)} />
 				)}
 
 			</div>
