@@ -66,13 +66,10 @@ const ClusterDashboard = () => {
             <div className="grid-container" style={{ marginRight: selectedNode ? "300px" : "0" }}>
 
 				<NodeGrid nodes={nodes} cores={cores} colorMode={colorMode} onNodeClick={handleNodeClick}/>
-
 				{selectedNode && (
-					<Sidebar node={selectedNode} cores={cores} onClose={() => setSelectedNode(null)} />
+					<Sidebar node={selectedNode} onClose={() => setSelectedNode(null)} />
 				)}
-
 			</div>
-
         </div>
     );
 };
