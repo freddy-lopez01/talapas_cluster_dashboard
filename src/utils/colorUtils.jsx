@@ -1,9 +1,15 @@
 import nodeDetailsData from "../node_features.json";
 import partitionColors from "../partitionColors.json";
 
-
 export const getColor = (nodename, coreValue, colorMode, cores) => {
   const nodeInfo = nodeDetailsData[nodename];
+  // If nodeInfo doesn't exist or has no core_count, flag it red
+  if (!nodeInfo || typeof nodeInfo.core_count !== "number") {
+    console.warn(`Parsing error or missing data for node: ${nodename}`);
+    return "rgba(255, 0, 0, 0.5)"; // red for error
+  }
+
+  console.log(nodename, nodeInfo["core_count"])
   const maxCores = nodeInfo["core_count"]
 
   switch (colorMode) {

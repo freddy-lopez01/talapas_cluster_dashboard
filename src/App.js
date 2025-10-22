@@ -37,7 +37,6 @@ const ClusterDashboard = () => {
   		}
 	};
 
-
 	const handleColorModeChange = (mode) => {
     	setColorMode(mode);
     };
