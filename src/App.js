@@ -12,21 +12,43 @@ const ClusterDashboard = () => {
  
 	const [nodeCoresData, SetNodeCoreData] = useState({});
 
+	//useEffect(() => {
+	//	const fetchData = async () => {
+	//		try {
+	//			const coresRes = await fetch(`./node_data.json?nocache=${Date.now()}`);
+	//			const coresJson = await coresRes.json();
+	//		 	SetNodeCoreData(coresJson )
+	//		} catch (error) {
+	//			console.error("Error fetching JSON data. RIP")
+	//		}
+	//	};
+	//
+	//	fetchData();
+	//	const interval = setInterval(fetchData, 10000)
+	//	return () => clearInterval(interval)
+	//
+	//}, []);
+	//
 	useEffect(() => {
-		const fetchData = async () => {
-			try {
-				const coresRes = await fetch(`./node_data.json?nocache=${Date.now()}`);
-				const coresJson = await coresRes.json();
-			 	SetNodeCoreData(coresJson )
-			} catch (error) {
-				console.error("Error fetching JSON data. RIP")
-			}
-		};
+    	const fetchData = async () => {
+    	    try {
+    	        //const cores= await fetch(`http://toolbox.talapas.uoregon.edu:5000/api/`);
+				const coresRes= await fetch(`http://toolbox.talapas.uoregon.edu:5000/api/node_usage?nocache=${Date.now()}`, {
+      				headers: {
+        				"X-API-Key": process.env.REACT_APP_CPU_COUNT_API_KEY
+      					}
+    			});
 
-		fetchData();
-		const interval = setInterval(fetchData, 10000)
-		return () => clearInterval(interval)
+    	        const coresJson = await coresRes.json();
+    	        SetNodeCoreData(coresJson);
+    	    } catch (error) {
+    	        console.error("Error fetching CPU usage data:", error);
+    	    }
+    	};
 
+    	fetchData();
+    	const interval = setInterval(fetchData, 10000); // refresh every 10s
+    	return () => clearInterval(interval);
 	}, []);
     
 	const handleNodeClick = (nodename) => {
@@ -45,7 +67,8 @@ const ClusterDashboard = () => {
     	setKeyMode(prev => !prev);
     };
 
-	const nodes = Object.keys(nodeCoresData);
+
+	const nodes = Object.keys(nodeCoresData).map(n => n.split(".")[0]);
     const cores = Object.values(nodeCoresData);
 
     return (
@@ -58,7 +81,6 @@ const ClusterDashboard = () => {
 				    }}
 					>Partitions</button>
         		<button className="button-opt" onClick={() => handleColorModeChange("architecture")}>Architecture</button>
-        		<button className="button-opt" onClick={() => handleColorModeChange("gpus")}>GPU</button>
         		<button className="legend-button" onClick={() => handleKeyModeChange(keyMode)}>Show legend</button>
       		</div>
 		    {keyMode && <ColorKey keyMode={keyMode} colorMode={colorMode} />}

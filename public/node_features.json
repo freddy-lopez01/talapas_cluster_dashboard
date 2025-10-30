@@ -8,7 +8,7 @@
         "gres": "N/A"
     },
     "n0111": {
-        "features": "amd,milan,7713",
+        "features": "amd,milan,7714",
         "partitions": [
             "compute",
             "preempt"
