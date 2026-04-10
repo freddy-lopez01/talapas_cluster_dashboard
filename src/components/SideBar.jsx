@@ -10,15 +10,19 @@ const Sidebar = ({ node, cores, onClose }) => {
 
   useEffect(() => {
     const loadCores = async () => {
-      if (!cpuCountCache[node]) {
-        console.log("Cache miss, fetching...");
-        const fetchedCores = await fetchCpuCount(node);
-        console.log("Fetched cores:", fetchedCores);
-        setCores(fetchedCores);
-      } else {
-        console.log("Cache hit:", cpuCountCache[node]);
-        setCores(cpuCountCache[node]);
-      }
+      //if (!cpuCountCache[node]) {
+      //  console.log("Cache miss, fetching...");
+      //  const fetchedCores = await fetchCpuCount(node);
+      //  console.log("Fetched cores:", fetchedCores);
+      //  setCores(fetchedCores);
+      //} else {
+      //  console.log("Cache hit:", cpuCountCache[node]);
+      //  setCores(cpuCountCache[node]);
+      //}
+      console.log("Cache miss, fetching...");
+      const fetchedCores = await fetchCpuCount(node);
+      console.log("Fetched cores:", fetchedCores);
+      setCores(fetchedCores);
     };
 
     loadCores();
