@@ -25,6 +25,7 @@ const ClusterDashboard = () => {
 				//			});
                 const coresRes = await fetch(`/api/node_usage?nocache=${Date.now()}`);
     	        const coresJson = await coresRes.json();
+                console.log("node_usage response:", coresJson);
     	        SetNodeCoreData(coresJson);
     	    } catch (error) {
     	        console.error("Error fetching CPU usage data:", error);
