@@ -12,9 +12,7 @@ const NodeGrid = ({ nodes, cores, colorMode, onNodeClick }) => {
       for (let i = 0; i < nodes.length; i++) {
         const nodename = nodes[i];
         const coreValue = cores[i];
-		if (nodename != "NODELIST") {
 			colors[nodename] = await getColor(nodename, coreValue, colorMode, cores);
-		}
       }
       setNodeColors(colors);
     };
@@ -24,7 +22,7 @@ const NodeGrid = ({ nodes, cores, colorMode, onNodeClick }) => {
 
   return (
     <div className="image-grid">
-      {nodes.map((nodename, index) => (
+	  {nodes.filter(nodename => nodename !== "NODELIST").map((nodename, index) => (
         <div
           key={index}
           className="image-item"
