@@ -18,12 +18,12 @@ const ClusterDashboard = () => {
     	const fetchData = async () => {
     	    try {
     	        //const cores= await fetch(`http://toolbox.talapas.uoregon.edu:5000/api/`);
-				const coresRes= await fetch(`http://toolbox.talapas.uoregon.edu:5000/api/node_usage?nocache=${Date.now()}`, {
-      				headers: {
-        				"X-API-Key": process.env.REACT_APP_CPU_COUNT_API_KEY
-      					}
-    			});
-
+				//const coresRes= await fetch(`http://toolbox.talapas.uoregon.edu:5000/api/node_usage?nocache=${Date.now()}`, {
+				//  				headers: {
+				//    				"X-API-Key": process.env.REACT_APP_CPU_COUNT_API_KEY
+				//  					}
+				//			});
+                const coresRes = await fetch(`/api/node_usage?nocache=${Date.now()}`);
     	        const coresJson = await coresRes.json();
     	        SetNodeCoreData(coresJson);
     	    } catch (error) {
