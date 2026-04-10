@@ -12,7 +12,9 @@ const NodeGrid = ({ nodes, cores, colorMode, onNodeClick }) => {
       for (let i = 0; i < nodes.length; i++) {
         const nodename = nodes[i];
         const coreValue = cores[i];
-        colors[nodename] = await getColor(nodename, coreValue, colorMode, cores);
+		if (nodename != "NODELIST") {
+			colors[nodename] = await getColor(nodename, coreValue, colorMode, cores);
+		}
       }
       setNodeColors(colors);
     };
