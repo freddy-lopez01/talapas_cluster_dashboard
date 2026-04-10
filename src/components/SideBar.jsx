@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import nodeDetailsData from "../node_features.json";
 import { fetchCpuCount } from "../utils/fetchCPUCount.jsx"; // reuse your helper
 import "./SideBar.css";
-import { cpuCountCache } from "../utils/cpuCache";
-
+//import { cpuCountCache } from "../utils/cpuCache";
 
 const Sidebar = ({ node, cores, onClose }) => {
-  const [totalCores, setCores] = useState(cpuCountCache[node] ?? null); // use cache if available
+  //const [totalCores, setCores] = useState(cpuCountCache[node] ?? null); // use cache if available
+  const [totalCores, setCores] = useState(null);
 
   useEffect(() => {
     const loadCores = async () => {

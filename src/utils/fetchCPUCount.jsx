@@ -7,7 +7,10 @@ export const fetchCpuCount = async (nodename) => {
   //  headers: { "X-API-Key": process.env.REACT_APP_CPU_COUNT_API_KEY }
   //});
   const res = await fetch(`/api/cpu_count/${nodename}.talapas.uoregon.edu`);
+  if (!res.ok) return null;
+
   const data = await res.json();
-  cpuCountCache[nodename] = data.cpu_count;
-  return data.cpu_count;
+  //cpuCountCache[nodename] = data.cpu_count;
+  return data.cpu_count ? parseInt(data.cpu_count, 10) : null;
 };
+
