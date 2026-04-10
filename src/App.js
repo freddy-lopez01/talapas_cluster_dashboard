@@ -54,8 +54,13 @@ const ClusterDashboard = () => {
     };
 
 
-	const nodes = Object.keys(nodeCoresData).map(n => n.split(".")[0]);
-    const cores = Object.values(nodeCoresData);
+	//const nodes = Object.keys(nodeCoresData).map(n => n.split(".")[0]);
+	//   const cores = Object.values(nodeCoresData);
+
+	const filteredData = Object.entries(nodeCoresData).filter(([key]) => !key.startsWith("NODELIST"));
+
+    const nodes = filteredData.map(([key]) => key.split(".")[0]);
+    const cores = filteredData.map(([, value]) => value);
 	//console.log(nodes.indexOf("n0169"))
 	//const index = nodes.indexOf("n0169")
 	//console.log(cores[index])
