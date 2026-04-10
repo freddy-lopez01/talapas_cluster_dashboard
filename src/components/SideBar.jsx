@@ -1,36 +1,30 @@
 import React, { useState, useEffect } from "react";
 import nodeDetailsData from "../node_features.json";
-import { fetchCpuCount } from "../utils/colorUtils"; // reuse your helper
+import { fetchCpuCount } from "../utils/fetchCPUCount.jsx"; // reuse your helper
 import "./SideBar.css";
+import { cpuCountCache } from "../utils/cpuCache";
 
-const Sidebar = ({ node, onClose }) => {
-  const nodeInfo = nodeDetailsData[node];
-  const [totalCores, setTotalCores] = useState(null);
-  const [nodeData, setNodeData] = useState({});
+
+const Sidebar = ({ node, cores, onClose }) => {
+  const [totalCores, setCores] = useState(cpuCountCache[node] ?? null); // use cache if available
+
   useEffect(() => {
-    let isMounted = true; // to avoid setting state on unmounted component
-
-    const fetchData = async () => {
-      try {
-
-		const res = await fetch(`/node_data.json?nocache=${Date.now()}`);
-        const json = await res.json();
-        if (isMounted) setNodeData(json);
-
-        const cpuCount = await fetchCpuCount(node); // fetch from backend
-        if (isMounted) setTotalCores(cpuCount); // cache locally in state
-      } catch (error) {
-        console.error("Error fetching total cores:", error);
+    const loadCores = async () => {
+      if (!cpuCountCache[node]) {
+        console.log("Cache miss, fetching...");
+        const fetchedCores = await fetchCpuCount(node);
+        console.log("Fetched cores:", fetchedCores);
+        setCores(fetchedCores);
+      } else {
+        console.log("Cache hit:", cpuCountCache[node]);
+        setCores(cpuCountCache[node]);
       }
     };
 
-    fetchData();
-    const interval = setInterval(fetchData, 10000); // refresh every 10s
-    return () => {
-      isMounted = false;
-      clearInterval(interval);
-    };
+    loadCores();
   }, [node]);
+
+  const nodeInfo = nodeDetailsData[node];
 
   return (
     <div className="sidebar">
@@ -41,7 +35,7 @@ const Sidebar = ({ node, onClose }) => {
         <p><strong>Partitions:</strong> {nodeInfo.partitions.join(", ")}</p>
         <p><strong>GRES:</strong> {nodeInfo.gres}</p>
       </div>
-	  <div>Cores in use: {nodeData[node] ?? "Loading..."}</div>
+	  <div>Cores in use: {cores ?? "Loading..."}</div>
       <div>Total Cores: {totalCores ?? "Loading..."}</div>
     </div>
   );

@@ -4,6 +4,7 @@ import NodeGrid from "./components/node.jsx";
 import Sidebar from "./components/SideBar.jsx";
 import NavBar from "./components/NavBar.jsx";
 import ColorKey from "./components/ColorKey.jsx";
+//import JobCounter from "./components/JobCounter.jsx";
 
 const ClusterDashboard = () => {
 	const [selectedNode, setSelectedNode] = useState(null);
@@ -12,23 +13,7 @@ const ClusterDashboard = () => {
  
 	const [nodeCoresData, SetNodeCoreData] = useState({});
 
-	//useEffect(() => {
-	//	const fetchData = async () => {
-	//		try {
-	//			const coresRes = await fetch(`./node_data.json?nocache=${Date.now()}`);
-	//			const coresJson = await coresRes.json();
-	//		 	SetNodeCoreData(coresJson )
-	//		} catch (error) {
-	//			console.error("Error fetching JSON data. RIP")
-	//		}
-	//	};
-	//
-	//	fetchData();
-	//	const interval = setInterval(fetchData, 10000)
-	//	return () => clearInterval(interval)
-	//
-	//}, []);
-	//
+	
 	useEffect(() => {
     	const fetchData = async () => {
     	    try {
@@ -70,6 +55,11 @@ const ClusterDashboard = () => {
 
 	const nodes = Object.keys(nodeCoresData).map(n => n.split(".")[0]);
     const cores = Object.values(nodeCoresData);
+	//console.log(nodes.indexOf("n0169"))
+	//const index = nodes.indexOf("n0169")
+	//console.log(cores[index])
+	//			<JobCounter className="data-widgets" />
+
 
     return (
         <div className="dashboard-container">
@@ -82,14 +72,16 @@ const ClusterDashboard = () => {
 					>Partitions</button>
         		<button className="button-opt" onClick={() => handleColorModeChange("architecture")}>Architecture</button>
         		<button className="legend-button" onClick={() => handleKeyModeChange(keyMode)}>Show legend</button>
+
       		</div>
 		    {keyMode && <ColorKey keyMode={keyMode} colorMode={colorMode} />}
             <div className="grid-container" style={{ marginRight: selectedNode ? "300px" : "0" }}>
 
 				<NodeGrid nodes={nodes} cores={cores} colorMode={colorMode} onNodeClick={handleNodeClick}/>
 				{selectedNode && (
-					<Sidebar node={selectedNode} onClose={() => setSelectedNode(null)} />
+					<Sidebar node={selectedNode} cores={cores[nodes.indexOf(selectedNode)]} onClose={() => setSelectedNode(null)} />
 				)}
+
 			</div>
         </div>
     );

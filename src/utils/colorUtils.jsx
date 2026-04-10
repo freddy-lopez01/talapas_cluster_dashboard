@@ -1,26 +1,6 @@
 import nodeDetailsData from "../node_features.json";
 import partitionColors from "../partitionColors.json";
-
-// Helper function to fetch cpu_count from your Flask backend
-export const fetchCpuCount = async (nodename) => {
-  try {
-    const res = await fetch(`http://toolbox.talapas.uoregon.edu:5000/api/cpu_count/${nodename}.talapas.uoregon.edu`, {
-      headers: {
-        "X-API-Key": process.env.REACT_APP_CPU_COUNT_API_KEY
-      }
-    });
-
-	//console.log("Node Name:", nodename);
-	//console.log("Response status:", res.status);
-	//   console.log("Response headers:", [...res.headers.entries()]);
-    if (!res.ok) throw new Error("Node not found");
-    const data = await res.json();
-    return data.cpu_count;
-  } catch (err) {
-    console.warn(`Error fetching cpu_count for ${nodename}:`, err);
-    return null; // fallback
-  }
-};
+import { fetchCpuCount } from "../utils/fetchCPUCount";
 
 export const getColor = async (nodename, coreValue, colorMode, cores) => {
   const nodeInfo = nodeDetailsData[nodename];
@@ -29,10 +9,6 @@ export const getColor = async (nodename, coreValue, colorMode, cores) => {
     console.warn(`Node info not found in JSON for ${nodename}`);
     return "rgba(255, 0, 0, 0.5)";
   }
-
-  //console.log("MaxCores:", maxCores)
-  //if (maxCores === null) return "rgba(255, 0, 0, 0.5)"; // error fallback
-  //if (maxCores === 1) return "rgba(220, 0, 45, 0.5)"; // error fallback
 
   switch (colorMode) {
     case "cores":

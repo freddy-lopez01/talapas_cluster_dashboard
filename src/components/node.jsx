@@ -4,6 +4,7 @@ import { getColor } from "../utils/colorUtils";
 
 const NodeGrid = ({ nodes, cores, colorMode, onNodeClick }) => {
   const [nodeColors, setNodeColors] = useState({}); // { nodename: color }
+
   useEffect(() => {
     // Fetch colors for all nodes asynchronously
     const fetchColors = async () => {
