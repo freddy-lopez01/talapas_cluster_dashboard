@@ -6,7 +6,9 @@ export const getColor = async (nodename, coreValue, colorMode, cores) => {
   const nodeInfo = nodeDetailsData[nodename];
 
   if (!nodeInfo) {
+	if (nodename != "NODELIST") {
     console.warn(`Node info not found in JSON for ${nodename}`);
+	}
     return "rgba(255, 0, 0, 0.5)";
   }
 
